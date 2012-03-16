@@ -1,0 +1,509 @@
+StyleSheet
+
+@import 'reset.css';
+@import 'ie.css';
+
+
+
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 23000px;
+	overflow: hidden;
+
+}
+
+#ie6 {
+display: none;
+}
+
+a img {
+border:none;
+}
+
+p{
+font-weight: bold;
+line-height: 1.3em;
+letter-spacing: -.5px;
+
+}
+
+#gavinsite , #shoutout {
+position: absolute;
+top: 330px;
+left: 500px;
+z-index: 5000;
+}
+
+a {
+outline: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a{
+background: #ffea08;
+padding: 0 3px;
+color: black;
+text-decoration: none;
+	
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, p {
+margin-top: 0;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, p a:hover{
+background: white;
+}
+
+img {
+outline: none;
+}
+
+.projectDescription {
+padding: 10px;
+}
+
+
+#work h2 {
+clear: both;
+margin: 0 0 0 0;
+padding: 10px 0 0 0;
+}
+
+#work h2 strong {
+color: #555;
+}
+
+.container {
+float: left;
+display: block;
+height: 1000px;
+width: 2000px;
+position: relative;
+}
+
+.alt {
+color: white;
+}
+
+
+.interior {
+width: 950px;
+}
+
+
+.back, .next {
+position: absolute;
+height: 20px;
+width: 60px;
+
+}
+
+.home {
+position: absolute;
+width: 46px;
+height: 17px;
+}
+
+
+
+#home {
+background: #FFF url('images/bg-home.gif') no-repeat top left;
+}
+
+#home .interior {
+padding-top: 282px;
+padding-left: 300px;
+}
+
+#home img {
+float: left;
+margin-right: 23px;
+}
+
+#home h2 {
+width: 270px;
+float: left;
+}
+
+
+#homeTobio {
+background: #FFF url('images/bg-hometobio.gif') no-repeat top left;
+}
+
+#homeTobio2 {
+background: #FFF url('images/bg-hometobio2.gif') no-repeat top left;
+}
+
+#bio {
+background: #FFF url('images/bg-bio.gif') no-repeat top left;
+
+}
+
+#biotowork {
+background: #FFF url('images/bg-biotowork.gif') no-repeat top left;
+}
+
+#biotowork2 {
+background: #FFF url('images/bg-biotowork2.gif') no-repeat top left;
+}
+
+#biotowork3 {
+background: #FFF url('images/bg-biotowork3.gif') no-repeat top left;
+}
+
+
+#work {
+background: #FFF url('images/bg-work.gif') no-repeat top left;
+font-size: 16px;
+
+
+}
+
+#worktoconnect {
+background: #FFF url('images/bg-worktoconnect.gif') no-repeat top left;
+
+}
+
+
+
+#worktoconnect2 {
+background: #FFF url('images/bg-worktoconnect2.gif') no-repeat top left;
+
+}
+
+#connect {
+background: #FFF url('images/bg-connect.gif') no-repeat top left;
+font-size: 20px;
+
+
+}
+
+
+
+#work .back {
+top: 280px;
+left: 10px;
+}
+
+#bio .back {
+top: 525px;
+left: 20px;
+}
+
+#bio .next {
+top: 130px;
+left: 900px;
+}
+
+#bio .interior {
+padding-top: 110px;
+padding-left: 113px;
+font-size: 20px;
+}
+
+#bio .interior img {
+float: left;
+margin-right: 25px;
+border-color: white;
+}
+
+.column {
+float: left;
+width: 250px;
+margin-right: 25px;
+}
+
+#bio h1 {
+float: left;
+margin-left: -8px
+}
+
+
+#work .interior {
+padding: 40px 90px;
+}
+
+#work .bubble {
+float: left;
+width: 245px;
+padding-top: 195px;
+margin-right: 60px;
+height: 600px;
+}
+
+.bubble p {
+margin-bottom: 10px;
+}
+
+.bubble h4 {
+text-align: right;
+margin-top: 20px;
+}
+
+.project {
+height: 110px;
+width: 590px;
+padding-right: 0;
+color: #aaa;
+background: url('images/overlay.png') no-repeat 100% 100%;
+height: 415px;
+overflow: hidden;
+}
+
+.project:hover {
+
+}
+
+.project h2 {
+color: white;
+}
+
+.project p {
+font-size: 11px;
+font-weight: normal;
+letter-spacing: 0;
+padding: 0 4px;
+}
+
+.project img{
+float: left;
+margin-right: 15px;
+}
+
+.project h2 {
+padding: 5px;
+font-size: 16px;
+}
+
+.project h2 strong {
+color: #555;
+margin-left: 5px;
+}
+
+
+h1 {
+font-size: 48px;
+margin-bottom: 10px;
+letter-spacing: -1px;
+}
+
+
+h2 {
+margin: 0 5px;
+font-size: 20px;
+letter-spacing: -1px;
+line-height: 22px;
+}
+
+
+h3 {
+text-transform: uppercase;
+font-size: 11px;
+letter-spacing: 5px;
+margin-bottom: 5px;
+color: #FFEA08;
+font-weight: normal;
+margin-top: 10px;
+margin-left: -5px;
+}
+
+h4 {
+font-size: 14px;
+color: #666 !important;
+}
+
+.visit {
+float: right;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 10px;
+padding: 3px 3px 0 0;
+}
+
+.visit a {
+color: #FFEE0F;
+text-decoration: none;
+}
+
+#work .next {
+top: 500px;
+left: 900px;
+}
+
+#connect .interior {
+padding: 130px 155px;
+}
+
+#connect .column {
+width: 230px;
+}
+
+input, textarea {
+font-family: arial, helvetica, verdana, sans-serif;
+}
+
+#connect .back {
+top:423px;
+left: 13px;
+}
+
+.column.right {
+margin-top: -60px;
+}
+
+form, fieldset {
+ border: none;
+ outline: none;
+}
+
+input, textarea {
+width: 230px;
+font-size: 14px;
+font-weight: bold;
+background: #FFEA08;
+color: black;
+padding: 5px;
+border: none;
+margin-bottom: 8px;
+}
+
+textarea {
+height: 50px;
+}
+input.submit {
+width: 70px;
+background: black;
+color: #FFEA08;
+font-size: 20px;
+padding: 10px;
+margin-left: 15px;
+
+}
+
+label {
+font-size: 12px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+#expand {
+position: absolute;
+left: -1550px;
+display: block;
+top: 0;
+}
+
+h3.section {
+	margin-top: 1em;
+}
+
+#twitter_update_list {
+font-size: 12px;
+font-weight: bold;
+list-style-type: none;
+margin: 10px 0 0 0;
+padding: 0 10px;
+}
+
+#twitter_update_list li {
+margin: 0;
+line-height: 1.5em;
+}
+
+
+#twitter_update_list a {
+display: block;
+color: #333;
+text-decoration: underline;
+}
+
+#twitter_update_list span a {
+background: #FFEA08 none repeat scroll 0 0;
+color: black;
+padding: 0 3px;
+text-decoration: none;
+display: inline;
+}
+
+#twitter_update_list span a:hover {
+background: white;
+}
+
+.grey {
+font-weight: bold;
+color: #444444;
+}
+
+#newSite {
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background: url('http://sursly.com/images/bg-bio.gif') no-repeat top center;
+display: block;
+height: 16px;
+z-index: 1000;
+padding: 10px;
+}
+
+/* new as of march 30 */
+
+#Pagination {
+position: relative;
+float: left;
+display: block;
+width: 590px;
+height: 30px;
+}
+
+#Pagination .next, #Pagination .prev {
+position: absolute;
+top: 0 !important;
+width: 80px;
+text-align: center;
+display: block;
+font-size: 12px;
+font-weight:  bold;
+padding: 5px;
+height: 15px;
+}
+
+#Pagination span {
+background: #888;
+color: black;
+}
+
+#Pagination a {
+background: #ffea08;
+color: black;
+text-decoration: none;
+padding: 0;
+}
+
+#Pagination a:hover {
+background: white;
+color: black;
+}
+
+#Pagination .next {
+left: 485px;
+}
+
+#Pagination .prev {
+left: 25px;
+}
+
+.projectDescription p {
+padding: 0;
+margin: 0;
+}

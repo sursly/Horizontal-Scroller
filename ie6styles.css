@@ -1,0 +1,15 @@
+/* IE6 CSS */
+
+#ie6 {
+display: block;
+margin: 0;
+text-align: center;
+padding: 10px 80px 10px 80px;
+background: #000000;
+color: #DDD;
+font-size: 15px;
+line-height: 1.5em;
+border-bottom: 13px solid #FFF;
+width: 900px;
+
+}

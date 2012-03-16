@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>It's not stealing if he gave me a download link"</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	<meta name="keywords" content="It's not stealing if he gave me a download link" />
+	<meta name="description" content="It's not stealing if he gave me a download link"" />
+
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="thw.js"></script>
+ <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="jquery.pagination.js"></script>
+
+
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="ie6styles.css" /><![endif]-->
+
+
+
+<script type="text/javascript">
+        
+       
+			function pageselectCallback(page_index, jq){
+                var new_content = $('#hiddenresult div.result:eq('+page_index+')').clone();
+                $('#Searchresult').empty().append(new_content);
+                return false;
+            }
+           
+   
+            function initPagination() {
+                var num_entries = $('#hiddenresult div.result').length;
+                // Create pagination element
+                $("#Pagination").pagination(num_entries, {
+                    num_edge_entries: 0,
+                    num_display_entries: 0,
+                    callback: pageselectCallback,
+                    items_per_page:1
+                });
+             }
+                    
+                       $(document).ready(function(){      
+                initPagination();
+            });
+            
+                     
+</script>
+
+
+</head>
+<body>
+<!--<div id="ie6"><p><em>Oh no!</em> You are using a pretty out-of-date browser (Internet Explorer 6 - whoops!) and missing out on some awesomeness. It's okay, we recommend you <a href="http://getfirefox.com">download and install Firefox</a> and come back for the fun (and other websites you've been visiting will look better too)! Thanks ~mgmt.</p></div>-->
+	<div id="home" class="container">
+		<div class="interior">
+
+				<a href="http://www.sursly.com" alt="sursly.com"><img border="0" src="images/blank.gif" alt="sursly logo" width="100" height="50px"/></a>
+				<h2>Hey I'm <a href="#bio" title="something">(name)</a> and Tyler made <a href="#work" alt="stuff">this</a> for you.</h2>
+					<a href="#bio" title="sursly tyler"><img border="0" src="images/blank.gif" alt="sursly go" width="100" height="50px"/></a>
+		</div>
+			
+	</div>
+	<div id="homeTobio" class="container">
+			&nbsp;
+	
+	</div>
+		<div id="homeTobio2" class="container">
+			&nbsp;
+	
+	</div>
+	
+	<div id="bio" class="container alt">
+		<span class="home"><a href="#home" alt="sursly.com home"><img border="0" src="images/home.gif" alt="sursly home" width="46" height="17" /></a></span>
+		<span class="back"><a href="#home" alt="sursly.com home"><img border="0" src="images/go-left.png" alt="sursly home" width="60" height="20"/></a></span>
+		<span class="next"><a href="#work" title="sursly's work"><img border="0" src="images/go-right.png" alt="sursly work" width="60" height="20"/></a></span>
+		
+	
+		<div class="interior">
+			<img src="http://placehold.it/267x400" width="267" height="400" border="
+			20" alt="my image" />
+			<h1>__ _____ since '82</h1>
+			<div class="column"><h3>Business</h3>
+			<p>Type YOUR bio here. Don't use the word "guru" and try to sound less douchebaggy.</p></div>
+			<div class="column">
+			<h3>Pleasure</h3>
+			<p>If you do something that isn't on the computer other people should know about it. </p>
+			
+			
+			</div>
+			
+	
+			
+		</div>
+
+	</div>
+	
+	
+	
+	<div id="biotowork" class="container">
+	   &nbsp;
+	</div>
+	
+	<div id="biotowork2" class="container">
+		&nbsp;
+	</div>
+
+	<div id="biotowork3" class="container">
+		&nbsp;
+	</div> 
+
+
+	<div id="work" class="container">
+		<span class="home"><a href="#home" alt="sursly.com home"><img border="0" src="images/home.gif" alt="sursly home" width="46" height="17" /></a></span>
+		<span class="back">	<a href="#bio" title="tyler is sursly"><img border="0" src="images/go-left.png" alt="sursly home" width="60" height="20"/></a></span>
+			<span class="next"><a href="#connect" title="connect with tyler"><img border="0" src="images/go-right.png" alt="sursly connect" width="60" height="20"/></a></span>
+	
+		<div class="interior">
+			<div class="bubble alt">
+		<h3>Toolkit</h3>
+			<p>Whatever, css, html, copy/pasting code, you know, what you "do".</p>
+			
+					
+
+			
+		</div>
+			<div id="Searchresult">
+			Don't fucking touch this spot.
+		</div>
+        
+        <!-- Container element for all the Elements that are to be paginated -->
+        <div id="hiddenresult" style="display:none;">
+           
+           
+    
+       
+             
+                        
+           <div class="result project">
+                 <img src="http://placehold.it/590x340" width="590" height="340" alt="Your fucking work">
+					<div class="projectDescription"><h2>Title of Thing <strong>Kind of thing (website? logo?)</strong></h2>
+					<p>Just describe whatever you're showing, ya heard?</p>
+					</div>
+             </div>
+           <div class="result project">
+                 <img src="http://placehold.it/590x340" width="590" height="340" alt="Your fucking work">
+					<div class="projectDescription"><h2>Whoa Another Project <strong>Slide</strong></h2>
+					<p>Is there a 4th wall in web design? Who the fuck knows.</p>
+					</div>
+             </div>        
+        </div>
+  
+				 <div id="Pagination" class="pagination"> </div>
+	</div>
+	</div>
+	
+	
+	<div id="worktoconnect" class="container">
+	&nbsp;
+	</div>
+	
+	<div id="worktoconnect2" class="container">
+	&nbsp;
+	</div>
+	
+	
+	
+	<div id="connect" class="container">
+	<span class="home"><a href="#home" alt="sursly.com home"><img border="0" src="images/home.gif" alt="sursly home" width="46" height="17" /></a></span>
+	<span class="back">	<a href="#work" title="tyler works sursly"><img border="0" src="images/go-left.png" alt="sursly work" width="60" height="20"/></a></span>
+	
+	<div class="interior">
+	<h1>Say Hello!</h1>
+	<div class="column">
+	<p>Or something similar. If you'd like, send me an email: <a href="javascript:location='mailto:#">You@youremail.com></a></p>
+	<p>Or <strong><a name="phone"><phone>1 234 567 8910</phone></a></strong>
+	</p>
+	<h4>Freelance status: whatever</h4>
+	</div>
+	<div class="column right">
+	
+	<div id="contactFormArea">
+<p>&nbsp;<br />Follow <a href="http://www.twitter.com/#" title="Someone on Twitter" target="_blank">me on Twitter</a></p>
+<div id="twitter_div"><h3 class="grey">MY LATEST TWEET</h3><ul id="twitter_update_list"></ul></div> <br /> 
+	<h4>I occasionally <a href="http://dribbble.com/" target="_blank">dribbble</a>, on <a href="http://tumblr.com" target="_blank">tumblr</a>, in a <a href="http://forrst.com/" target="_blank">forrst</a>. </h4>
+
+
+	</div></div>
+	
+	</div>
+	
+	
+	</div>
+	
+<script type="text/javascript">
+
+
+
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/sursly.json?callback=twitterCallback2&count=1"></script><!--don't pull in my tweets, change this shit-->
+
+
+
+</body>
+</html>
